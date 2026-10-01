@@ -1,0 +1,158 @@
+ <!DOCTYPE html>
+<html lang="pt-BR">
+<link rel="stylesheet" href="CSS/style.css" />
+
+<head> 
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+  <style>
+  body {
+    margin: 0;
+    position: relative;
+  }
+
+  body::before {
+    content: "";
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url("imagens/fundo.jpg");
+    background-size: cover;
+    background-position: center;
+    z-index: -2;
+  }
+
+  body::after {
+    content: "";
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.86); /* preto com 50% de "força" */
+    z-index: -1;
+  }
+</style>
+    <title>Minha Página sobre Hunter x Hunter</title> 
+</head>
+<body>
+
+  
+    <!-- Título principal da página -->
+    <h1>Hunter x Hunter é um ótimo anime</h1>
+    <img src= "imagens/novo.jpg" alt= "hunter" class ="hunterxhunter">
+    <!-- Apresentação e parágrafos de introdução -->
+    <p>
+       &nbsp &nbsp  &nbsp   Hunter x Hunter é um dos melhores animes de todos os tempos por causa de vários fatores.<br> 
+      &nbsp &nbsp  &nbsp    Um dos fatores são os seus personagens, que possuem personalidades muito divertidas de acompanhar. <br>
+      &nbsp &nbsp  &nbsp   O protagonista Gon, apesar de parecer um protagonista genérico no início, consegue ser muito mais sombrio e profundo conforme a história avança. <br>
+    &nbsp &nbsp  &nbsp  Hunter x Hunter consegue fazer algo básico te surpreender e subverter todas as suas expectativas. É um shonen que muitas vezes foge dos clichês da própria proposta. <br>
+    </p>
+
+    <!-- Lista Não Ordenada (ul): Objetivos / Motivos sem ordem específica -->
+    <h2 class = "coisa">&nbsp  &nbsp &nbsp   Motivos para assistir Hunter x Hunter:</h2>
+
+    <p> &nbsp &nbsp  &nbsp &nbsp   Arcos marcantes e bem construídos <br> 
+      &nbsp  &nbsp &nbsp  &nbsp  Sistema de poder incrível e complexo (Nen)<br>
+      &nbsp  &nbsp &nbsp  &nbsp  Arcos memoraveis <br>
+     &nbsp  &nbsp  &nbsp  &nbsp  Trilha sonora marcante e vilões inesquecíveis</p>
+    
+
+    <!-- Lista Ordenada (ol): Etapas sequenciais -->
+    <h3>&nbsp  &nbsp &nbsp  &nbsp  Etapas para maratonar o anime:</h3>
+    
+        <p> &nbsp  &nbsp &nbsp  &nbsp  Assistir ao Arco do Exame Hunter<br>
+        &nbsp  &nbsp &nbsp  &nbsp  Acompanhar os combates na Torre Celestial<br>
+       &nbsp  &nbsp &nbsp  &nbsp Vivenciar os arcos de Yorknew City e Greed Island<br>
+        &nbsp  &nbsp &nbsp  &nbsp Chegar ao aclamado Arco das Formigas Chimera</p>
+    
+
+    <!-- Tabela com caption, th (com scope="col"), td e colspan -->
+    <table> 
+        <caption>Informações dos Arcos de Hunter x Hunter</caption>
+        <thead>
+            <tr>
+                <th scope="col">Arco</th>
+                <th scope="col">Qtd. Episódios</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Exame Hunter</td>
+                <td>21</td>
+            </tr>
+            <tr>
+                <td>Família Zoldyck</td>
+                <td>5</td>
+            </tr>
+            <tr>
+                <td>Torre Celestial</td>
+                <td>10</td>
+            </tr>
+            <tr>
+                <td>Yorknew City</td>
+                <td>22</td>
+            </tr>
+            <tr>
+                <td>Greed Island</td>
+                <td>17</td>
+            </tr>
+            <tr>
+                <td>Formigas Chimera</td>
+                <td>61</td>
+            </tr>
+            <tr>
+                <td>Eleição do 13º Presidente</td>
+                <td>12</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <td colspan="2"><strong>Total do anime: 148 episódios!</strong></td>
+            </tr>
+        </tfoot>
+    </table>
+
+    <br>
+	<h2> &nbsp  &nbsp &nbsp  &nbsp &nbsp &nbsp  Qual o seu arco favorito? </h2>
+
+    <form>
+  <input type="radio" id="exame" name="melhores-arcos" value="Exame">
+  <label for="exame">Exame Hunter</label><br>
+
+  <input type="radio" id="familia" name="melhores-arcos" value="Família">
+  <label for="familia">Família Zoldyck</label><br>
+
+  <input type="radio" id="torre" name="melhores-arcos" value="Torre">
+  <label for="torre">Torre Celestial</label><br>
+
+  <input type="radio" id="yorknew" name="melhores-arcos" value="Yorknew">
+  <label for="yorknew">Yorknew</label><br>
+
+  <input type="radio" id="greed" name="melhores-arcos" value="Greed Island">
+  <label for="greed">Greed Island</label><br>
+
+  <input type="radio" id="formigas" name="melhores-arcos" value="Formigas Chimera">
+  <label for="formigas">Formigas Chimera</label><br>
+
+  <input type="radio" id="eleicao" name="melhores-arcos" value="Eleição">
+  <label for="eleicao">Eleição do 13º Presidente</label><br>
+    </form>
+    >
+<p id="labe"></p>
+<button id="bota"> Clique para marcar sua visita</button>
+<script src="CSS/java.js"></script> <br> <br>
+
+
+
+    <p>
+        <a href="https://pt.wikipedia.org/wiki/Hunter_%C3%97_Hunter" target="_blank">Clique aqui para ver a página de Hunter x Hunter na Wikipédia</a>
+    </p>
+
+    
+</body>
+</html>
+

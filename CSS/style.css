@@ -1,0 +1,191 @@
+h1 {
+    font-size: 2em;
+    color: rgb(204, 194, 191);
+    font-family: 'Arial Narrow';
+    margin: 30px auto;  
+    text-align: center;   
+  }
+
+.hunterxhunter {
+      width: 400px;       /* Altera a largura */
+  height: 50%;       /* Mantém a proporção da altura */
+  border-radius: 8px; /* Arredonda as bordas */
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+.coisa {
+
+font-size: 2em;
+color: rgb(60, 201, 17);
+font-family:  'Arial Narrow';
+margin: 30px auto;     
+text-align: center;      
+
+}
+
+p {
+color: white;
+font-size: 1em;
+font-family:  'Arial Narrow';
+margin: 30px auto;   
+text-align: center;           
+}
+
+h3 {
+  color:rgb(31, 223, 14);
+  font-size: 1.5em;
+  font-family: 'Arial Narrow';
+  margin: 30px auto;      
+  text-align: center;        
+}
+h2 {
+font-size: 1.5em;
+  font-family: 'Arial Narrow';
+  color: rgb(24, 26, 194);
+  margin: 30px auto;  
+  text-align: center;            
+}
+
+table {
+  width: 100%;
+  max-width: 600px;
+  margin: 30px auto;           /* centraliza a tabela na página */
+  border-collapse: collapse;   /* remove espaço duplicado entre bordas */
+  font-family: Arial, sans-serif;
+  background-color: rgba(255, 255, 255, 0.9); /* fundo quase branco, levemente transparente */
+  border-radius: 8px;          /* cantos arredondados */
+  overflow: hidden;            /* faz o border-radius funcionar nas bordas internas */
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.4); /* sombra pra "flutuar" sobre o fundo escuro */
+  text-align: center;   
+}
+
+caption {
+  font-size: 1.3em;
+  font-weight: bold;
+  padding: 12px;
+  color: #fff;
+  background-color: #2c2c2c;   /* fundo escuro pro título da tabela */
+  text-align: center;   
+}
+
+thead th {
+  background-color: #444;
+  color: #fff;
+  padding: 12px;
+  text-align: left;
+  text-transform: uppercase;
+  font-size: 0.9em;
+  letter-spacing: 0.5px;
+  text-align: center;   
+}
+
+tbody td {
+  padding: 10px 12px;
+  border-bottom: 1px solid #ddd;
+  color: #222;
+  text-align: center;   
+}
+
+tbody tr:nth-child(even) {
+  background-color: #f2f2f2;   /* linhas alternadas (zebra) */
+}
+
+tbody tr:hover {
+  background-color: #e0e0e0;   /* destaque ao passar o mouse */
+  transition: background-color 0.2s ease;
+}
+
+tfoot td {
+  background-color: #2c2c2c;
+  color: #fff;
+  padding: 12px;
+  text-align: center;
+}
+h2 {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    font-size: 1.5em;
+    color: rgb(116, 146, 6);
+    margin: 30px auto;           
+}
+
+
+form {
+
+  width: 80%;
+  max-width: 400px;
+  margin: 30px auto;  
+  border-collapse: collapse;
+  font-family: Arial, sans-serif;
+  background-color: rgba(255, 255, 255, 0.9);
+   border-radius: 8px;          /* cantos arredondados */
+  overflow: hidden;            /* faz o border-radius funcionar nas bordas internas */
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.9);  
+   
+}
+label:nth-of-type(even) {
+  font-size: 1em;
+  color: black;
+    font-family: Arial, sans-serif;
+    font-weight: bold;
+     
+}
+input:nth-of-type(even) {
+font-size: 1em;
+  color: black;
+    font-family: Arial, sans-serif;
+    font-weight: bold;
+      
+}
+
+
+#bota{
+
+text-align: center;
+font-family: Arial, sans-serif;
+font-size: 0.8em;
+border-collapse: collapse;
+ border-radius: 8px;  
+ color: #fff;
+ background-color: rgb(27, 27, 27);
+ margin: 30px auto;    
+  display: block;
+  margin-left: auto;
+  margin-right: auto;       
+}
+
+#labe {
+
+  
+font-family: Arial, sans-serif;
+font-size: 0.8em;
+margin: 30px auto;  
+text-align: center;            
+}
+
+a:link {
+  color: pink;
+  text-align: center;   
+}
+a:visited {
+  color: red;
+  text-align: center;   
+}
+
+a:hover {
+  text-decoration: none;
+  text-align: center;   
+}
+
+@media (max-width: 600px) {
+  table {
+    font-size: 0.8em;
+  }
+
+  body {
+    padding: 10px;
+  }
+}
+
